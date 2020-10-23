@@ -1,31 +1,3 @@
-'''
-test1:
-    insert card
-    insert card again
-    shouldn't work
-
-def test_validate_pin_without_card_inserted(self):
-    atm = ATM()
-    atm.validate_pin()
-
-test2:
-    validate pin
-    shouldn't work because card was not inserted
-
-test3:
-    insert card
-    input pin
-    deposit 50
-    check balance, balance should be 30
-    end operation
-
-    insert card
-    input pin
-    withdraw 20
-    check balance, balance should be 30
-
-'''
-
 def validate_api(card_nr, pin):
     # validate account nr and pin
     # return true or fale
